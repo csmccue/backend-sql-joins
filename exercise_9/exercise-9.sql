@@ -7,4 +7,139 @@ from film
 LEFT JOIN inventory on film.film_id = inventory.film_id
 LEFT JOIN rental on inventory.inventory_id = rental.inventory_id
 WHERE 
-  rental.staff_id IS NULL
+  rental.rental_date IS NULL
+
+    --   - Expected  -   0
+    -- + Received  + 126
+
+    --   Array [
+    --     Object {
+    --       "title": "Academy Dinosaur",
+    --     },
+    -- +   Object {
+    -- +     "title": "Sky Miracle",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Kill Brotherhood",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Sister Freddy",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Gladiator Westward",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Floats Garden",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Apollo Teen",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Crystal Breaking",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Hocus Frida",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Frankenstein Stranger",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Raiders Antitrust",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Hate Handicap",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Order Betrayed",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Wake Jaws",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Deliverance Mulholland",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Butch Panther",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Psycho Shrunk",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Catch Amistad",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Ark Ridgemont",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Crowds Telemark",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Firehouse Vietnam",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Pearl Destiny",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Volume House",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Gump Date",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Roof Champion",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Walls Artist",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Crossing Divorce",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Muppet Mile",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Arsenic Independence",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Rainbow Shock",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Commandments Express",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Chocolate Duck",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Argonauts Town",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Suicides Silence",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Kentuckian Giant",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Perdition Fargo",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Treasure Command",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Boondock Ballroom",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Alice Fantasia",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Villain Desperate",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Tadpole Park",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Dazed Punk",
+    -- +   },
+    -- +   Object {
+    -- +     "title": "Chinatown Gladiator",
+    -- +   },
+    --   ]
